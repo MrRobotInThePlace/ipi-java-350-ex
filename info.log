@@ -1,0 +1,4 @@
+10:20:41 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 7260 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+10:20:41 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+10:20:46 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 5.328 seconds (JVM running for 8.385)
+10:20:46 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0

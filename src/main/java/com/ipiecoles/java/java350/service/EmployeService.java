@@ -6,6 +6,8 @@ import com.ipiecoles.java.java350.model.Entreprise;
 import com.ipiecoles.java.java350.model.NiveauEtude;
 import com.ipiecoles.java.java350.model.Poste;
 import com.ipiecoles.java.java350.repository.EmployeRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +16,8 @@ import java.time.LocalDate;
 
 @Service
 public class EmployeService {
+
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     private EmployeRepository employeRepository;
@@ -32,8 +36,17 @@ public class EmployeService {
      */
     public void embaucheEmploye(String nom, String prenom, Poste poste, NiveauEtude niveauEtude, Double tempsPartiel) throws EmployeException, EntityExistsException {
 
+        //logger.debug("Ceci est un élément purement technique, à des fins de debuggage");
+        //logger.info("Ceci est une information");
+        //logger.warn("Attention !");
+        //logger.error("Problème détecté !");
+
+        logger.info("Embauche de l'employé {} {} diplomé de {} en tant que {} avec un taux d'activité de {}", nom, prenom, niveauEtude, poste, tempsPartiel);
+
         //Récupération du type d'employé à partir du poste
         String typeEmploye = poste.name().substring(0,1);
+        logger.debug("Type d'employé {}", typeEmploye);
+
 
         //Récupération du dernier matricule...
         String lastMatricule = employeRepository.findLastMatricule();
@@ -60,11 +73,13 @@ public class EmployeService {
             salaire = salaire * tempsPartiel;
         }
 
+        //Arrondi au centime
+        salaire = Math.round(salaire * 100) / 100d;
+
         //Création et sauvegarde en BDD de l'employé.
         Employe employe = new Employe(nom, prenom, matricule, LocalDate.now(), salaire, Entreprise.PERFORMANCE_BASE, tempsPartiel);
 
         employeRepository.save(employe);
-
     }
 
 

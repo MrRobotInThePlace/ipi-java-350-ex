@@ -113,7 +113,7 @@ public class EmployeTest {
             "0,3,'T12345',1.0,3300.0", //Technicien à plein temps sans ancienneté avec performance 3
 
             })
-    public void testGetPrimeAnnuelle3(Integer nbAnneesAnciennete, Integer performance, String matricule, Double tempsPartiel,
+    public void testGetPrimeAnnuelle(Integer nbAnneesAnciennete, Integer performance, String matricule, Double tempsPartiel,
                                      Double primeObtenue){
         //Given
         // 4 données d'entrée => remplacer par les paramètres
@@ -127,4 +127,5 @@ public class EmployeTest {
         //Remplace la valeur de sortie en dur par le paramètre de sortie
         Assertions.assertThat(primeCalculee).isEqualTo(primeObtenue);
     }
+
 }
