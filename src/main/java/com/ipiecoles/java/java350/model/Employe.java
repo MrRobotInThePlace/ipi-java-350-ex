@@ -63,20 +63,42 @@ public class Employe {
         return getNbRtt(LocalDate.now());
     }
 
-    public Integer getNbRtt(LocalDate d){
-        int i1 = d.isLeapYear() ? 366 : 365;int var = 104;
-        switch (LocalDate.of(d.getYear(),1,1).getDayOfWeek()){
-        case THURSDAY: if(d.isLeapYear()) var =  var + 1; break;
-        case FRIDAY:
-        if(d.isLeapYear()) var =  var + 2;
-        else var =  var + 1;
-        break;
-case SATURDAY:var = var + 1;
-                    break;
+    /**Nombre de jours dans l'année - Nombre de jours travaillés dans l'année en plein temps - Nombre de samedi et dimanche dans l'année
+     * - Nombre de jours fériés ne tombant pas le week-end - Nombre de congés payés**. Le tout au pro-rata du taux d'activité du salarié.
+     */
+
+    public Integer getNbRtt(LocalDate anneeActuelle){
+        // définition du nombre de jour calendaire année classique (365) VS année bissextile (366)
+        int nbJourAnnee = anneeActuelle.isLeapYear() ? 366 : 365;
+        // nombre de samedi et dimanche dans l'année
+        int nbJourWeekend = 104;
+
+        switch (LocalDate.of(anneeActuelle.getYear(),1,1).getDayOfWeek()){
+
+            case THURSDAY:
+                if(anneeActuelle.isLeapYear()) {
+                    nbJourWeekend = nbJourWeekend + 1;
+                }
+            break;
+
+            case FRIDAY:
+                if(anneeActuelle.isLeapYear()) {
+                    nbJourWeekend =  nbJourWeekend + 2;
+                }
+                else {
+                    nbJourWeekend =  nbJourWeekend + 1;
+                }
+            break;
+
+            case SATURDAY:  nbJourWeekend =  nbJourWeekend + 1;
+            break;
         }
-        int monInt = (int) Entreprise.joursFeries(d).stream().filter(localDate ->
+
+        // nombre de jours fériés ne tombant pas un weekend
+        int nbJourFerie = (int) Entreprise.joursFeries(anneeActuelle).stream().filter(localDate ->
                 localDate.getDayOfWeek().getValue() <= DayOfWeek.FRIDAY.getValue()).count();
-        return (int) Math.ceil((i1 - Entreprise.NB_JOURS_MAX_FORFAIT - var - Entreprise.NB_CONGES_BASE - monInt) * tempsPartiel);
+
+        return (int) Math.ceil((nbJourAnnee - Entreprise.NB_JOURS_MAX_FORFAIT - nbJourWeekend- nbJourFerie - Entreprise.NB_CONGES_BASE ) * tempsPartiel);
     }
 
     /**

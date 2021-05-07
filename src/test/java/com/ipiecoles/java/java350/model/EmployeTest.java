@@ -205,7 +205,7 @@ public class EmployeTest {
         Assertions.assertThat(newSalaire).isEqualTo(2000);
     }
 
-    @ParameterizedTest(name = "matricule {0}, salaire {1}, pourcentage d'augmentation {2}, Integer nbAnneeAnciennete {3} => Salaire final {3}")
+    @ParameterizedTest(name = "matricule {0}, salaire {1}, pourcentage d'augmentation {2}, Integer nbAnneeAnciennete {3} => Salaire final {4}")
     //Rajoute l'annotation contenant les scénarios de test  (réflechir aux dfférents scénarios possibles)
     @CsvSource({
             "'M00012',3000,10.0,5,3300.0", //Manager avec ancienneté
@@ -229,5 +229,41 @@ public class EmployeTest {
         Assertions.assertThat(salaireEstime).isEqualTo(newSalaire);
     }
 
+    @Test
+    public void testGetNbRtt() {
+        //Given
+        LocalDate anneeActuelle = LocalDate.now();
 
+        //Initialise l'employé à partir des données d'entrée
+        Employe employe = new Employe();
+
+        //When
+        Integer nbRTT = employe.getNbRtt(anneeActuelle);
+
+        //Then
+        Assertions.assertThat(nbRTT).isEqualTo(6);
+    }
+
+    @ParameterizedTest(name = "anneeActuelle {0} => nbRTT {1}")
+    @CsvSource({
+            "'2019-01-01',8" , // 2019 : l'année est non bissextile, a débuté un mardi et il y a 10 jours fériés ne tombant pas le week-end.
+            "'2021-01-01',10" , //2021 : l'année est non bissextile, a débuté un vendredi et il y a 7 jours fériés ne tombant pas le week-end.
+            "'2022-01-01',10" , //2022 : l'année est non bissextile, a débuté un samedi et il y a 7 jours fériés ne tombant pas le week-end.
+            "'2032-01-01',11" , //2032 : l'année est bissextile, a débuté un jeudi et il y a 7 jours fériés ne tombant pas le week-end.
+            "'2044-01-01',9" , //2044 : l'année est bissextile, a débuté un vendredi et il y a 8 jours fériés ne tombant pas le week-end.
+
+    })
+    public void testGetNbRTT(LocalDate anneeActuelle, Integer nbRTT){
+        //given
+        Employe employe = new Employe();
+
+
+        //when
+        Integer RTTEstime = employe.getNbRtt(anneeActuelle);
+
+        //then
+        //resultat attendus
+        Assertions.assertThat(RTTEstime).isEqualTo(nbRTT);
+
+    }
 }

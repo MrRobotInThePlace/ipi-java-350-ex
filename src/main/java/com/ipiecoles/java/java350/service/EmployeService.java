@@ -104,35 +104,44 @@ public class EmployeService {
     public void calculPerformanceCommercial(String matricule, Long caTraite, Long objectifCa) throws EmployeException {
         //Vérification des paramètres d'entrée
         if(caTraite == null || caTraite < 0){
+            logger.error("Le chiffre d'affaire {} ne peut être négatif ou null !" , caTraite);
             throw new EmployeException("Le chiffre d'affaire traité ne peut être négatif ou null !");
         }
+
         if(objectifCa == null || objectifCa < 0){
+            logger.error("L'objectif de chiffre d'affaire {} ne peut être négatif ou null !", objectifCa);
             throw new EmployeException("L'objectif de chiffre d'affaire ne peut être négatif ou null !");
         }
         if(matricule == null || !matricule.startsWith("C")){
+            logger.error("Le matricule {} ne peut être null et doit commencer par un C !" , matricule);
             throw new EmployeException("Le matricule ne peut être null et doit commencer par un C !");
         }
         //Recherche de l'employé dans la base
         Employe employe = employeRepository.findByMatricule(matricule);
         if(employe == null){
+            logger.error("Le matricule {} n'existe pas !", matricule);
             throw new EmployeException("Le matricule " + matricule + " n'existe pas !");
         }
 
         Integer performance = Entreprise.PERFORMANCE_BASE;
         //Cas 2
         if(caTraite >= objectifCa*0.8 && caTraite < objectifCa*0.95){
+            logger.debug("La performance de : {} pour le cas 2", performance);
             performance = Math.max(Entreprise.PERFORMANCE_BASE, employe.getPerformance() - 2);
         }
         //Cas 3
         else if(caTraite >= objectifCa*0.95 && caTraite <= objectifCa*1.05){
+            logger.debug("La performance de : {} pour le cas 3", performance);
             performance = Math.max(Entreprise.PERFORMANCE_BASE, employe.getPerformance());
         }
         //Cas 4
         else if(caTraite <= objectifCa*1.2 && caTraite > objectifCa*1.05){
+            logger.debug("La performance de : {} pour le cas 4", performance);
             performance = employe.getPerformance() + 1;
         }
         //Cas 5
         else if(caTraite > objectifCa*1.2){
+            logger.debug("La performance de : {} pour le cas 5", performance);
             performance = employe.getPerformance() + 4;
         }
         //Si autre cas, on reste à la performance de base.
@@ -140,6 +149,7 @@ public class EmployeService {
         //Calcul de la performance moyenne
         Double performanceMoyenne = employeRepository.avgPerformanceWhereMatriculeStartsWith("C");
         if(performanceMoyenne != null && performance > performanceMoyenne){
+            logger.info("La performance moyenne {} est nulle", performanceMoyenne);
             performance++;
         }
 
