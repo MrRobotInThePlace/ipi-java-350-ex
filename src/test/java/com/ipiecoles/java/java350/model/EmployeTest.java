@@ -128,4 +128,106 @@ public class EmployeTest {
         Assertions.assertThat(primeCalculee).isEqualTo(primeObtenue);
     }
 
+    @Test
+    public void testAugmenterSalaireManager(){
+        //Given
+        Poste poste = Poste.MANAGER;
+        Double salaire = 3000.0;
+        LocalDate dateEmbauche = LocalDate.now().minusYears(5);
+
+        //Initialise l'employé à partir des données d'entrée
+        Employe employe = new Employe("Doe", "John", "M00012",
+                dateEmbauche, salaire, 1, 1.0);
+
+        //When
+
+        Double newSalaire = employe.augmenterSalaire(10.0);
+
+        //Then
+        // 3000 + 10%
+        Assertions.assertThat(newSalaire).isEqualTo(3300);
+    }
+
+    @Test
+    public void testAugmenterSalaireTechnicien(){
+        //Given
+        Poste poste = Poste.TECHNICIEN;
+        Double salaire = 1000.0;
+        LocalDate dateEmbauche = LocalDate.now().minusYears(10);
+
+        //Initialise l'employé à partir des données d'entrée
+        Employe employe = new Employe("Amstrong", "Toto", "T00012",
+                dateEmbauche, salaire, 1, 1.0);
+
+        //When
+        Double newSalaire = employe.augmenterSalaire(5.0);
+
+        //Then
+        // 1000 + 5%
+        Assertions.assertThat(newSalaire).isEqualTo(1050);
+    }
+
+    @Test
+    public void testAugmenterSalaireCommercial(){
+        //Given
+        Poste poste = Poste.COMMERCIAL;
+        Double salaire = 2000.0;
+        LocalDate dateEmbauche = LocalDate.now().minusYears(1);
+
+        //Initialise l'employé à partir des données d'entrée
+        Employe employe = new Employe("Durand", "Pauline", "C00012",
+                dateEmbauche, salaire, 1, 1.0);
+
+        //When
+        Double newSalaire = employe.augmenterSalaire(8.0);
+
+        //Then
+        // 2000 + 8%
+        Assertions.assertThat(newSalaire).isEqualTo(2160);
+    }
+
+    @Test
+    public void testAugmenterSalaireNouvelEmploye(){
+        //Given
+        Poste poste = Poste.COMMERCIAL;
+        Double salaire = 2000.0;
+        LocalDate dateEmbauche = LocalDate.now();
+
+        //Initialise l'employé à partir des données d'entrée
+        Employe employe = new Employe("Delacoline", "Marie", "C00014",
+                dateEmbauche, salaire, 1, 1.0);
+
+        //When
+        Double newSalaire = employe.augmenterSalaire(0.0);
+
+        //Then
+        // 2000 + 0%
+        Assertions.assertThat(newSalaire).isEqualTo(2000);
+    }
+
+    @ParameterizedTest(name = "matricule {0}, salaire {1}, pourcentage d'augmentation {2}, Integer nbAnneeAnciennete {3} => Salaire final {3}")
+    //Rajoute l'annotation contenant les scénarios de test  (réflechir aux dfférents scénarios possibles)
+    @CsvSource({
+            "'M00012',3000,10.0,5,3300.0", //Manager avec ancienneté
+            "'T00012',1000,5.0,10,1050.0", //Technicien avec ancienneté
+            "'C00012',2000,8.0,1,2160.0", //Commercial avec ancienneté
+            "'C00014',2000,8.0,0,2000.0", //Commercial sans ancienneté
+
+    })
+    public void testAugmenterSalaire(String matricule, Double salaire, Double pourcentage, Integer nbAnneesAnciennete, Double newSalaire) {
+
+        //Given
+        // 4 données d'entrée => remplacer par les paramètres
+        LocalDate dateEmbauche = LocalDate.now().minusYears(nbAnneesAnciennete);
+        //Initialise l'employé à partir des données d'entrée
+        Employe employe = new Employe("Pierre", "Richard", matricule,
+                dateEmbauche, salaire, 1, 1.0);
+        ///When
+        Double salaireEstime = employe.augmenterSalaire(pourcentage);
+
+        //Then
+        Assertions.assertThat(salaireEstime).isEqualTo(newSalaire);
+    }
+
+
 }
