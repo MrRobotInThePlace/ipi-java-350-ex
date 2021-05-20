@@ -263,7 +263,7 @@ public class EmployeServiceTest {
                 .hasMessage("Le matricule ne peut être null et doit commencer par un C !");
     }
 
-    // Cas caTraite nul ou négatif
+    // Cas caTraite négatif
     @Test
     void testCalculPerformanceCommercialCATraiteNegatif() throws EmployeException {
         //Given
@@ -276,7 +276,20 @@ public class EmployeServiceTest {
                 .hasMessage("Le chiffre d'affaire traité ne peut être négatif ou null !");
     }
 
-    // Cas objectifCa nul ou négatif
+    // Cas caTraite nul
+    @Test
+    void testCalculPerformanceCommercialCATraiteNull() throws EmployeException {
+        //Given
+        Long caTraite = null;
+        Long objectifCa = 5000L;
+        String matricule = "C12345";
+        //Then
+        Assertions.assertThatThrownBy(()-> employeService.calculPerformanceCommercial(matricule,caTraite,objectifCa))
+                .isInstanceOf(EmployeException.class)
+                .hasMessage("Le chiffre d'affaire traité ne peut être négatif ou null !");
+    }
+
+    // Cas objectifCa négatif
     @Test
     void testCalculPerformanceCommercialObjectifCANegatif() throws EmployeException {
         //Given
@@ -288,4 +301,18 @@ public class EmployeServiceTest {
                 .isInstanceOf(EmployeException.class)
                 .hasMessage("L'objectif de chiffre d'affaire ne peut être négatif ou null !");
     }
+
+    // Cas objectifCa nul
+    @Test
+    void testCalculPerformanceCommercialObjectifCANull() throws EmployeException {
+        //Given
+        Long caTraite = 1000L;
+        Long objectifCa = null;
+        String matricule = "T12345";
+        //Then
+        Assertions.assertThatThrownBy(()-> employeService.calculPerformanceCommercial(matricule,caTraite,objectifCa))
+                .isInstanceOf(EmployeException.class)
+                .hasMessage("L'objectif de chiffre d'affaire ne peut être négatif ou null !");
+    }
+
 }
