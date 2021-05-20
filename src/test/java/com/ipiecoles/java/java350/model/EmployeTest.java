@@ -208,10 +208,12 @@ public class EmployeTest {
     @ParameterizedTest(name = "matricule {0}, salaire {1}, pourcentage d'augmentation {2}, Integer nbAnneeAnciennete {3} => Salaire final {4}")
     //Rajoute l'annotation contenant les scénarios de test  (réflechir aux dfférents scénarios possibles)
     @CsvSource({
-            "'M00012',3000,10.0,5,3300.0", //Manager avec ancienneté
-            "'T00012',1000,5.0,10,1050.0", //Technicien avec ancienneté
-            "'C00012',2000,8.0,1,2160.0", //Commercial avec ancienneté
-            "'C00014',2000,8.0,0,2000.0", //Commercial sans ancienneté
+            "'M00012',3000,10.0,5,3300.0", // Manager avec ancienneté
+            "'T00012',1000,5.0,10,1050.0", // Technicien avec ancienneté
+            "'C00012',2000,8.0,1,2160.0",  // Commercial avec ancienneté
+            "'C00014',2000,8.0,0,2000.0",  // Commercial sans ancienneté
+            "'E00014',2000,8.0,0,2000.0",  // Employé autre que C, T, ou M sans ancienneté
+            ",2000,8.0,0,2000.0",          // Matricule null
 
     })
     public void testAugmenterSalaire(String matricule, Double salaire, Double pourcentage, Integer nbAnneesAnciennete, Double newSalaire) {
@@ -232,11 +234,12 @@ public class EmployeTest {
 
     @ParameterizedTest(name = "anneeActuelle {0} => nbRTT {1}")
     @CsvSource({
-            "'2019-01-01',8" , // 2019 : l'année est non bissextile, a débuté un mardi et il y a 10 jours fériés ne tombant pas le week-end.
-            "'2021-01-01',10" , //2021 : l'année est non bissextile, a débuté un vendredi et il y a 7 jours fériés ne tombant pas le week-end.
-            "'2022-01-01',10" , //2022 : l'année est non bissextile, a débuté un samedi et il y a 7 jours fériés ne tombant pas le week-end.
-            "'2032-01-01',11" , //2032 : l'année est bissextile, a débuté un jeudi et il y a 7 jours fériés ne tombant pas le week-end.
-            "'2044-01-01',9" , //2044 : l'année est bissextile, a débuté un vendredi et il y a 8 jours fériés ne tombant pas le week-end.
+            "'2019-01-01',8" ,  // 2019 : l'année est non bissextile, a débuté un mardi et il y a 10 jours fériés ne tombant pas le week-end.
+            "'2021-01-01',10" , // 2021 : l'année est non bissextile, a débuté un vendredi et il y a 7 jours fériés ne tombant pas le week-end.
+            "'2022-01-01',10" , // 2022 : l'année est non bissextile, a débuté un samedi et il y a 7 jours fériés ne tombant pas le week-end.
+            "'2026-01-01',9" ,  // 2026 : l'année est non bissextile, a débuté un jeudi et il y a 8 jours fériés ne tombant pas le week-end.
+            "'2032-01-01',11" , // 2032 : l'année est bissextile, a débuté un jeudi et il y a 7 jours fériés ne tombant pas le week-end.
+            "'2044-01-01',9" ,  // 2044 : l'année est bissextile, a débuté un vendredi et il y a 8 jours fériés ne tombant pas le week-end.
 
     })
 
