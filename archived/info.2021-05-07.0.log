@@ -1,0 +1,123 @@
+10:26:16 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 8116 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+10:26:16 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+10:26:23 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 6.736 seconds (JVM running for 10.031)
+10:26:23 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:46:44 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on BIBEN with PID 5868 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+15:46:44 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:46:50 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarted                     - Started EmployeRepositoryTest in 6.849 seconds (JVM running for 10.414)
+15:47:24 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on BIBEN with PID 10516 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+15:47:24 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:47:30 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarted                     - Started EmployeRepositoryTest in 6.234 seconds (JVM running for 9.293)
+15:47:59 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarting                    - Starting EmployeRepositoryTest on BIBEN with PID 10592 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+15:47:59 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:48:05 [main] INFO  c.i.java.java350.repository.EmployeRepositoryTest .logStarted                     - Started EmployeRepositoryTest in 6.479 seconds (JVM running for 9.54)
+15:59:24 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 10792 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+15:59:24 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:59:31 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 6.791 seconds (JVM running for 11.231)
+15:59:31 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 n'existe pas !
+15:59:49 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 2672 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+15:59:49 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:59:55 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 6.345 seconds (JVM running for 9.41)
+15:59:56 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+16:00:49 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 3444 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+16:00:49 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:00:55 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 6.685 seconds (JVM running for 9.684)
+16:00:55 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que COMMERCIAL avec un taux d'activité de 1.0
+16:00:56 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 n'existe pas !
+16:03:15 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 4712 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+16:03:15 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:03:21 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 6.251 seconds (JVM running for 9.514)
+16:03:21 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que COMMERCIAL avec un taux d'activité de 1.0
+16:03:21 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 n'existe pas !
+16:04:44 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 6596 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+16:04:44 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:04:50 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 6.386 seconds (JVM running for 9.329)
+16:04:51 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que COMMERCIAL avec un taux d'activité de 1.0
+16:06:21 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 3008 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+16:06:21 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:06:27 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 6.331 seconds (JVM running for 9.373)
+16:06:27 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+16:08:02 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 7576 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+16:08:02 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:08:08 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 6.095 seconds (JVM running for 9.319)
+16:08:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+16:12:06 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 6548 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+16:12:06 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:12:12 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 6.238 seconds (JVM running for 9.454)
+16:12:12 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+16:12:13 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00001 ne peut être null et doit commencer par un C !
+16:15:48 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 10012 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+16:15:48 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+16:15:54 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 6.431 seconds (JVM running for 9.423)
+16:15:55 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+16:19:10 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+16:20:03 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+16:21:13 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+16:22:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+16:22:57 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+16:24:20 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+16:25:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+16:28:50 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00001 n'existe pas !
+16:29:41 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C00002 n'existe pas !
+16:30:24 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+16:30:46 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+16:32:34 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+16:33:29 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+16:35:20 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00002 ne peut être null et doit commencer par un C !
+17:08:53 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00002 ne peut être null et doit commencer par un C !
+17:08:53 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:08:53 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:08:53 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:08:53 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:08:53 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:08:53 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:08:53 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+17:08:53 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -2 ne peut être négatif ou null !
+17:08:53 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
+17:08:55 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 11212 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+17:08:55 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+17:09:02 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 7.518 seconds (JVM running for 19.256)
+17:09:02 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:10:29 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00002 ne peut être null et doit commencer par un C !
+17:10:29 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:10:29 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:10:29 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:10:29 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:10:29 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:10:29 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:10:29 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+17:10:29 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -2 ne peut être négatif ou null !
+17:10:29 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
+17:10:30 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 7160 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+17:10:30 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+17:10:36 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 6.651 seconds (JVM running for 11.581)
+17:10:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:12:20 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00002 ne peut être null et doit commencer par un C !
+17:12:20 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:12:20 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:12:20 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:12:20 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:12:20 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:12:20 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:12:20 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+17:12:20 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -2 ne peut être négatif ou null !
+17:12:20 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
+17:12:21 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 4344 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+17:12:21 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+17:12:27 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 6.241 seconds (JVM running for 11.486)
+17:12:27 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:14:08 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule M00002 ne peut être null et doit commencer par un C !
+17:14:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:14:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:14:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:14:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:14:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:14:08 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+17:14:09 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -2 ne peut être négatif ou null !
+17:14:09 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -2 ne peut être négatif ou null !
+17:14:09 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
+17:14:10 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 5184 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
+17:14:10 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+17:14:15 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 5.843 seconds (JVM running for 10.352)
+17:14:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance de : 1 pour le cas 2
+17:14:15 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
