@@ -34,6 +34,16 @@
         </rollingPolicy>
     </appender>
 
+    <appender name="DEBUG_LOG" class="ch.qos.logback.core.FileAppender">
+        <file>debug.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss} [%thread] %-5level %-50logger{50}.%-30M - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+        </filter>
+    </appender>
+
     <logger name="com.ipiecoles.java" level="info">
         <appender-ref ref="INFO_LOG" />
     </logger>
