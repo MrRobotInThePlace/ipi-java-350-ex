@@ -45,6 +45,16 @@ public class EmployeTest {
     }
 
     @Test
+    public void testGetNbAnneesAncienneteDateEmbaucheNull(){
+        //Given
+        Employe employe = new Employe("Doe","John","T1234",null,2500.0,1,1.0);
+        //When
+        Integer nbAnneesAnciennete = employe.getNombreAnneeAnciennete();
+        //Then
+        Assertions.assertThat(nbAnneesAnciennete).isNull();
+    }
+
+    @Test
     public void testGetPrimeAnnuelleManagerSansAnciennetePleinTemps(){
         //Given
         // 4 données d'entrée
