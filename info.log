@@ -1,183 +1,36 @@
-17:26:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-17:26:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-17:26:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-17:26:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:26:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:26:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:26:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:26:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:26:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:26:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-17:26:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-17:26:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-17:26:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-17:31:24 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-17:31:24 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-17:31:24 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-17:31:24 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:31:24 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:31:24 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:31:24 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:31:24 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:31:24 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:31:24 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-17:31:24 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-17:31:24 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-17:31:24 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-17:35:22 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-17:35:22 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-17:35:22 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-17:35:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:35:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:35:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:35:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:35:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:35:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:35:22 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-17:35:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-17:35:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-17:35:22 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-17:58:36 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-17:58:36 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-17:58:36 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-17:58:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:58:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:58:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:58:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:58:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:58:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-17:58:36 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-17:58:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-17:58:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-17:58:36 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-18:07:47 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-18:07:47 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-18:07:47 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-18:07:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:07:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:07:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:07:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:07:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:07:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:07:47 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-18:07:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:07:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:07:47 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-18:26:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-18:26:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-18:26:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-18:26:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:26:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:26:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:26:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:26:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:26:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:26:33 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-18:26:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:26:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:26:33 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-18:27:13 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-18:27:13 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-18:27:13 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-18:27:13 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:27:13 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:27:13 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:27:13 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:27:13 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:27:13 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:27:13 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-18:27:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:27:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:27:14 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-18:28:36 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-18:28:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-18:28:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-18:28:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:28:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:28:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:28:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:28:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:28:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:28:37 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-18:28:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:28:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:28:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:28:37 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-18:29:11 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-18:29:11 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-18:29:11 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-18:29:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:29:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:29:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:29:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:29:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:29:11 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:29:12 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-18:29:12 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:29:12 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:29:12 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:29:12 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-18:29:59 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-18:30:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-18:30:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-18:30:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:30:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:30:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:30:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:30:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:30:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:30:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-18:30:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:30:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-18:30:39 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-18:30:39 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-18:30:39 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-18:30:39 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:30:39 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:30:39 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:30:39 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:30:39 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:30:39 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:30:39 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-18:30:39 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:30:40 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-18:35:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-18:35:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-18:35:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-18:35:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:35:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:35:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:35:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:35:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:35:00 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-18:35:00 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-18:35:01 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-18:35:01 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-18:35:02 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 9184 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
-18:35:02 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
-18:35:06 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 5.103 seconds (JVM running for 9.354)
-18:35:07 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-19:26:02 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-19:26:39 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-19:27:40 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire null ne peut être négatif ou null !
-19:28:47 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire null ne peut être négatif ou null !
-19:32:11 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-19:32:36 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-19:34:59 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
-19:34:59 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
-19:34:59 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
-19:34:59 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire null ne peut être négatif ou null !
-19:34:59 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-19:34:59 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire null ne peut être négatif ou null !
-19:34:59 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-19:34:59 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-19:34:59 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-19:34:59 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-19:34:59 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
-19:34:59 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
-19:34:59 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
-19:34:59 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
-19:35:00 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 4564 (started by IPI in C:\Users\IPI\Documents\COURS\ipi-java-350-ex)
-19:35:00 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
-19:35:04 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 4.203 seconds (JVM running for 8.371)
-19:35:04 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:29:34 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
+15:29:34 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
+15:29:34 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
+15:29:34 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire null ne peut être négatif ou null !
+15:29:34 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:29:34 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire null ne peut être négatif ou null !
+15:29:34 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:29:34 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:29:34 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:29:34 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:29:34 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:29:34 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
+15:29:34 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
+15:29:34 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
+15:29:35 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 9416 (started by IPI in D:\ipi-java-350-ex)
+15:29:35 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:29:40 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 5.196 seconds (JVM running for 9.565)
+15:29:40 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:30:38 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire -5000 ne peut être négatif ou null !
+15:30:38 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule C12345 n'existe pas !
+15:30:38 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire -1000 ne peut être négatif ou null !
+15:30:38 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - L'objectif de chiffre d'affaire null ne peut être négatif ou null !
+15:30:38 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Didou Koala diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:30:38 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le chiffre d'affaire null ne peut être négatif ou null !
+15:30:38 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:30:38 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:30:38 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:30:38 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:30:38 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
+15:30:38 [main] ERROR com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - Le matricule T12345 ne peut être null et doit commencer par un C !
+15:30:38 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .calculPerformanceCommercial    - La performance moyenne 3.0 est nulle
+15:30:38 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Célère Jacques diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 0.5
+15:30:39 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarting                    - Starting EmployeServiceIntegrationTest on BIBEN with PID 7656 (started by IPI in D:\ipi-java-350-ex)
+15:30:39 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStartupProfileInfo          - No active profile set, falling back to default profiles: default
+15:30:43 [main] INFO  c.i.j.j.service.EmployeServiceIntegrationTest     .logStarted                     - Started EmployeServiceIntegrationTest in 4.413 seconds (JVM running for 8.314)
+15:30:43 [main] INFO  com.ipiecoles.java.java350.service.EmployeService .embaucheEmploye                - Embauche de l'employé Jean Aurore diplomé de INGENIEUR en tant que MANAGER avec un taux d'activité de 1.0
